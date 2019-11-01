@@ -1,0 +1,36 @@
+Order No,Unique number identifying the order
+User Id,Unique number identifying the customer on a platform
+Vehicle Type,"For this competition limited to bikes, however in practice Sendy service extends to trucks and vans"
+Platform Type,"Platform used to place the order, there are 4 types"
+Personal or Business,Customer type
+Placement - Day of Month,Placement - Day of Month i.e 1-31
+Placement - Weekday (Mo = 1),Placement - Weekday (Monday = 1)
+Placement - Time,Placement - Time - Time of day the order was placed
+Confirmation - Day of Month,Confirmation - Day of Month i.e 1-31
+Confirmation - Weekday (Mo = 1),Confirmation - Weekday (Monday = 1)
+Confirmation - Time,Confirmation - Time - Time of day the order was confirmed by a rider
+Arrival at Pickup - Day of Month,Arrival at Pickup - Day of Month i.e 1-31
+Arrival at Pickup - Weekday (Mo = 1),Arrival at Pickup - Weekday (Monday = 1)
+Arrival at Pickup - Time,Time of day the the rider arrived at the location to pick up the order - as marked by the rider through the Sendy application
+Pickup - Day of Month,Pickup - Day of Month i.e 1-31
+Pickup - Weekday (Mo = 1),Pickup - Weekday (Monday = 1)
+Pickup - Time,Pickup - Time - Time of day the the rider picked up the order - as marked by the rider through the Sendy application
+Arrival at Destination - Day of Month,Arrival at Delivery - Day of Month i.e 1-31
+Arrival at Destination - Weekday (Mo = 1),Arrival at Delivery - Weekday (Monday = 1)
+Arrival at Destination - Time,Arrival at Delivery Time - Time of day the rider arrived at the destination to deliver the order - as marked by the rider through the Sendy application
+Distance (KM),The distance from Pickup to Destination
+Temperature,Temperature at the time of order placement in Degrees Celsius (measured every three hours)
+Precipitation in millimeters, Precipitation at the time of order placement (measured every three hours)
+Pickup Lat,Latitude of pick up location
+Pickup Long,Longitude of pick up location
+Destination Lat,Latitude of delivery location
+Destination Long,Longitude of delivery location
+Rider Id, ID of the Rider who accepted the order
+Time from Pickup to Arrival,Time in seconds between 'Pickup' and 'Arrival at Destination' - calculated from the columns for the purpose of facilitating the task
+,
+Rider Metrics,
+Rider Id,Unique number identifying the rider (same as in order details)
+No_Of_Orders, Number of Orders the rider has delivered
+Age,Number of days since the rider delivered the first order
+Average_Rating,Average rating of the rider
+No_of_Ratings, Number of ratings the rider has received. Rating an order is optional for the customer.
